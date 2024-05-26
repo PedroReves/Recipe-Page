@@ -1,17 +1,5 @@
 # Frontend Mentor - Recipe page solution
 
-## Table of contents
-
-- [Visão geral do Projeto](#overview)
-  - [Captura de Tela](#screenshot)
-  - [Links](#links)
-- [Processo de Construção](#my-process)
-  - [Criado com](#built-with)
-  - [O que eu aprendi](#what-i-learned)
-  - [Desenvolvimento Continuo](#continued-development)
-- [Autor](#author)
-- [Para quem quiser fazer](#acknowledgments)
-
 ## Visão Geral do Projeto
 
 ### Captura de Tela
