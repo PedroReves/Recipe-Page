@@ -2,52 +2,50 @@
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+- [Visão geral do Projeto](#overview)
+  - [Captura de Tela](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Processo de Construção](#my-process)
+  - [Criado com](#built-with)
+  - [O que eu aprendi](#what-i-learned)
+  - [Desenvolvimento Continuo](#continued-development)
+- [Autor](#author)
+- [Para quem quiser fazer](#acknowledgments)
 
-## Overview
+## Visão Geral do Projeto
 
-### Screenshot
+### Captura de Tela
 
 ![](./screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/PedroReves/Recipe-Page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- URL do github : [Link para a solução no github](https://github.com/PedroReves/Recipe-Page)
+- URL do site: [Link para o site da solução](https://pedroreves.github.io/Recipe-Page/)
 
-## My process
+## Processo de Construção
 
-### Built with
+### Criado com
 
 - Semantic HTML5 Tags
 - Propriedades Customizadas CSS 
 - Flexbox
 - Propriedades Root
 
-### What I learned
+### O que eu aprendi
 
 Esse está sendo um dos primeiros projetos que eu estou fazendo do frontend mentor, eu ainda preciso melhorar bastante os conhecimentos de html e css, pois tive dificuldade em construir algumas partes do projeto. Mas no geral, para começar esse foi um bom projeto
 
-### Continued development
+### Desenvolvimento Continuo
 
 Quero ainda terminar esse projeto, colocar uma boa responsividade, conseguir terminar as partes em que eu tive duvida, refatorar o meu código, pois em algumas partes meu código css e html não está semântico, entre outras coisas.
 
-## Author
+## Autor
 
 - Frontend Mentor - [@PedroReves](https://www.frontendmentor.io/profile/PedroReves)
 
 
-## Acknowledgments
+## Para quem quiser fazer
 
 Para um projeto inicial, onde você queira trabalhar mais as suas habilidades html e css, esse é um projeto bom, mas ainda sim você vai passar um pouco de dificuldade com algumas coisas específicas.  
-
