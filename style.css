@@ -1,0 +1,148 @@
+:root {
+  --font: "Young Serif", serif;
+  --font2: "Outfit", sans-serif;
+  --white: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--eggshell);
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font2);
+}
+
+.container {
+  background-color: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  padding: 20px;
+}
+
+.container h1 {
+  font-size: 2rem;
+  color: var(--dark-charcoal);
+  font-family: var(--font);
+  margin-bottom: 10px;
+}
+
+.container--description {
+  font-size: 1rem;
+  color: var(--wenge-brown);
+  margin-bottom: 20px;
+}
+
+.container h2 {
+  font-size: 1.5rem;
+  color: var(--nutmeg);
+  font-family: var(--font);
+  margin-bottom: 10px;
+}
+
+.container img {
+  border-radius: 12px;
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 100%;
+}
+
+.container p,
+.container ul,
+.container ol {
+  font-size: 1em;
+  margin-bottom: 15px;
+  color: var(--wenge-brown);
+  font-family: var(--font2);
+}
+
+.container--prep ul,
+.container--ingredients ul,
+.container--instructions ol {
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+
+.container--prep li {
+  margin: 10px 10px;
+}
+
+
+.container--prep li::marker {
+  color: var(--dark-raspberry);
+}
+
+.container--ingredients li {
+  margin: 10px 10px;
+}
+
+
+.container--ingredients li::marker {
+  color: var(--dark-raspberry);
+}
+
+.container--instructions li {
+  margin: 10px 0;
+  position: relative;
+  left: -10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.container--nutrition table {
+  width: 100%;
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.container--nutrition th,
+td {
+  padding: 1rem 0 1rem 1.5rem;
+  border-bottom: 1px solid rgba(180, 180, 180, 0.884);
+}
+
+.container--nutrition td {
+  color: #7a4c36;
+  font-weight: 800;
+}
+
+.container--nutrition th {
+  font-weight: 400;
+  color: var(--wenge-brown);
+}
+
+.container--nutrition tr:last-child td,
+.container--nutrition tr:last-child th {
+  border-bottom: none;
+}
+
+@media (max-width: 375px) {
+  .container--title {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .container--description {
+    text-align: center;
+    font-size: 0.5rem;
+    padding-bottom: 0.3rem;
+  }
+}
